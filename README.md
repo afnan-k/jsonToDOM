@@ -1,7 +1,7 @@
 # jsonToDOM
 
 ```javascript
-let let json = [
+let json = [
   'div', { class: 'hello' }, [
     'Hello World!',
     ['a', { href: 'example.com' }, 'Click me']
