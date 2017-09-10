@@ -8,5 +8,6 @@ let json = [
   ]
 ];
 
-jsonToDOM(json).then(dom => document.body.appendChild(dom));
+let dom = jsonToDOM(json);
+document.body.appendChild(dom);
 ```
